@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jake Eckfeldt</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+  <link rel="stylesheet" href="./portfolio.css">
+</head>
+
+<body>
+
+</head>
+
+<body style="background-color: rgb(82, 82, 82);">
+
+  <!--NavBar-->
+  <nav style="background-color: paleturquoise;" class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jake Eckfeldt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="./index.html">About</a>
+          <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+          <a class="nav-link active" href="./contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- end navbar -->
+  <br>
+  <br>
+  <br>
+  <!-- portfolio section -->
+  <main>
+    <section class="card boxShadow projectCard">
+      <img src="./Assets/chess.jpg" class="card-img-top cardImage" alt="chess">
+      <main class="card-body">
+        <h5 class="card-title">CH3SS!</h5>
+        <p class="card-text">A 3D Chess Game using C/C++. We utilized the unity game engine for the 3d aspect of the game
+          but the moves are all
+          done in console so the display is purely aesthetic showcasing my modeling skills.
+        </p>
+        <a href="#" class="btn btn-primary">Github Repo</a>
+      </main>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="card boxShadow projectCard">
+      <img src="./Assets/sudoku.png" class="card-img-top cardImage" alt="Sudoku">
+      <main class="card-body">
+        <h5 class="card-title">Sudoku Solver 2.0</h5>
+        <p class="card-text"> A C++ Algorithm using recursion and hashtables to solve any Sudoku grid. Has considerably low
+          space complexity given the method for the solution however the time complexity is O(logn).
+        </p>
+        <a href="#" class="btn btn-primary">Github Repo</a>
+      </main>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="card boxShadow projectCard">
+      <img src="./Assets/website.jpg" class="card-img-top cardImage" alt="website">
+      <main class="card-body">
+        <h5 class="card-title">Simple bootstrap styled websites</h5>
+        <p class="card-text"> I have a few websites designed. I can do simple features and implement things like cards,
+          carousels, dropdown menus, navbars, and gridding. I cannot implement any JavaScript into the websites currently.
+        </p>
+        <a href="#" class="btn btn-primary">Github Repo</a>
+      </main>
+    </section>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
